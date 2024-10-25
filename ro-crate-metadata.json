@@ -1,0 +1,48 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "# Inflam",
+      "description": "Inflam is a data management system written in Python that manages trial data used in clinical inflammation studies.",
+      "datePublished": "2024-10-24",
+      "license": "https://github.com/dannynew11/python-intermediate-inflammation2",
+      "author": [
+        {
+          "@id": "#Steve_Crouch-1"
+        },
+        {
+          "@id": "#James_Graham-1"
+        }
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "#Steve_Crouch-1",
+      "@type": "Person",
+      "name": "Steve_Crouch-1",
+      "familyName": "Crouch",
+      "givenName": "Steve"
+    },
+    {
+      "@id": "#James_Graham-1",
+      "@type": "Person",
+      "name": "James_Graham-1",
+      "familyName": "Graham",
+      "givenName": "James"
+    }
+  ]
+}
